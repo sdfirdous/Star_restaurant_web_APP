@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        /* contact form */
+        
+        .form1 {
+            padding-left: 50px;
+            padding-top: 5px;
+            text-align: center;
+        }
+        /* heading  */
+        
+        h1 {
+            padding-top: 20px;
+            padding-left: 50px;
+            font-size: 100px;
+        }
+        
+        .body1 {
+            background-color: rgb(221, 219, 87);
+        }
+        /* text input */
+        
+        input[type="text"] {
+            border-radius: 4px;
+            width: 20%;
+            padding: 15px;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        
+        input[type="email"] {
+            border-radius: 4px;
+            width: 20%;
+            padding: 15px;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        /* submit button style */
+        
+        input[type="submit"] {
+            background-color: darkblue;
+            color: white;
+            padding: 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 20%;
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        /* hovr effect*/
+        
+        input[type="submit"]:hover {
+            background-color: rgb(52, 52, 160);
+        }
+    </style>
+</head>
+
+<body class="body1">
+    <h1>Contact with us </h1>
+    <form class="form1">
+        <input type="text" placeholder="Name" required>
+        <br><br>
+        <!-- Email input  -->
+        <input type="email" placeholder="Email" required>
+        <br><br>
+        <input type="text" placeholder="City" required>
+        <br><br>
+        <input type="text" placeholder="Telephone" required>
+        <br><br>
+        <textarea cols="35" rows="5" placeholder="Message"></textarea>
+        <br><br>
+        <!--submit button-->
+
+        <input type="submit" name="Submit">
+    </form>
+</body>
+
+</html>
